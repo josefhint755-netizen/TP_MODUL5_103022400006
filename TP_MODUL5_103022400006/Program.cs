@@ -7,7 +7,6 @@ namespace TP_MODUL5_103022400006
         static void Main(string[] args)
         {
             HaloGeneric halo = new HaloGeneric();
-
             halo.SapaUser("Josefhint");
 
             DataGeneric<string> data = new DataGeneric<string>("103022400006");
@@ -17,9 +16,9 @@ namespace TP_MODUL5_103022400006
 
     class HaloGeneric
     {
-        public void SapaUser<T>(T x)
+        public void SapaUser<T>(T user)
         {
-            Console.WriteLine("Halo user " + x);
+            Console.WriteLine("Halo user " + user);
         }
     }
 
