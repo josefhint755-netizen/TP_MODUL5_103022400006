@@ -6,14 +6,18 @@ namespace TP_MODUL5_103022400006
     {
         static void Main(string[] args)
         {
+<<<<<<< HEAD
             HaloGeneric halo = new HaloGeneric();
             halo.SapaUser("Josefhint");
 
+=======
+>>>>>>> generic-class
             DataGeneric<string> data = new DataGeneric<string>("103022400006");
             data.PrintData();
         }
     }
 
+<<<<<<< HEAD
     class HaloGeneric
     {
         public void SapaUser<T>(T user)
@@ -22,6 +26,8 @@ namespace TP_MODUL5_103022400006
         }
     }
 
+=======
+>>>>>>> generic-class
     class DataGeneric<T>
     {
         private T data;
